@@ -1,5 +1,5 @@
-[phases.build]
-cmds = []
+[phases.install]
+cmds = ["npm install -g serve"]
 
 [start]
-cmd = "npx serve . -p $PORT"
+cmd = "serve . -p $PORT"
